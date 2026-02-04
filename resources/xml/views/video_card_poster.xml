@@ -1,0 +1,45 @@
+<brls:Box
+        wireframe="false"
+        highlightCornerRadius="8"
+        axis="column"
+        width="auto"
+        height="auto">
+        <brls:Box
+                id="video/card/pic_box"
+                width="100%"
+                height="80%">
+                <brls:Image
+                        id="video/card/picture"
+                        scalingType="fill"
+                        height="100%"
+                        width="100%"
+                        backgroundColor="@theme/color/grey_4"
+                        cornerRadius="4" />
+                <brls:Label
+                        id="video/card/label/rating"
+                        positionType="absolute"
+                        positionTop="5"
+                        positionRight="5"
+                        fontSize="12"
+                        textColor="#FFFFFF"
+                        backgroundColor="#00000080"
+                        cornerRadius="4"
+                        padding="4"
+                        visibility="gone"/>
+        </brls:Box>
+        <brls:Box
+                margin="5"
+                axis="column"
+                height="20%"
+                justifyContent="center">
+                <TextBox
+                        marginBottom="0"
+                        wireframe="false"
+                        id="video/card/label/title"
+                        fontSize="16"
+                        lineHeight="1.2"
+                        maxRows="2"
+                        width="100%"
+                        height="auto" />
+        </brls:Box>
+</brls:Box>
